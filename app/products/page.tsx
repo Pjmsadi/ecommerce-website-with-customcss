@@ -4,11 +4,7 @@ import Image from 'next/image'
 import { motion } from 'framer-motion'
 import styles from './product.module.css'
 
-
-
-interface ProductPageProps {}
-
-export default function ProductPage({}: ProductPageProps) {
+export default function ProductPage() {
   const fadeInVariants = {
     hidden: { opacity: 0, y: 20 },
     visible: { opacity: 1, y: 0 },

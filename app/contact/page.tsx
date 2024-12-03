@@ -42,7 +42,7 @@ export default function ContactPage() {
         className={styles.contactHeader}
       >
         <h1>Get in Touch</h1>
-        <p>We'd love to hear from you. Send us a message and we'll respond as soon as possible.</p>
+        <p>We&apos;d love to hear from you. Send us a message and we&apos;ll respond as soon as possible.</p>
       </motion.div>
 
       <div className={styles.contactContent}>
@@ -128,4 +128,3 @@ export default function ContactPage() {
     </div>
   )
 }
-

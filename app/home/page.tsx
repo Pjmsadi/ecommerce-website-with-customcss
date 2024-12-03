@@ -2,12 +2,7 @@
 
 import { useState, ChangeEvent, FormEvent } from 'react'
 import Image from 'next/image'
-import Link from 'next/link'
 import { motion } from 'framer-motion'
-import css from 'styled-jsx/css'
-import Navbar from '@/component/navbar'
-import Footer from '@/component/footer'
-
 
 import styles from './home.module.css'
 

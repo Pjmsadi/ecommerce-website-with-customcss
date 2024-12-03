@@ -41,7 +41,7 @@ export default function AboutPage() {
   ]
 
   const skincareApproach: string[] = [
-    "Personalization: We craft bespoke skincare rituals that celebrate and enhance your skin's unique beauty.",
+    "Personalization: We craft bespoke skincare rituals that celebrate and enhance your skin&apos;s unique beauty.",
     "Natural Ingredients: We thoughtfully select pristine botanicals and pure extracts to awaken your skin's natural radiance.",
     "Innovative Formulations: We artfully blend groundbreaking science with nature's most precious gifts to create transformative skincare.",
     "Gentle Effectiveness: We believe in the power of gentle care - our formulas nurture your skin while delivering remarkable, enduring results.",
@@ -95,7 +95,7 @@ const MissionSection: React.FC<SectionProps> = ({ fadeInUpVariants }) => (
           At Pure Glow, we harness the synergy of nature and science to create 
           transformative skincare solutions. Our mission is to deliver clean, sustainable, 
           and highly effective products that enhance your natural radiance while 
-          safeguarding our planet's precious resources.
+          safeguarding our planet&apos;s precious resources.
         </p>
       </motion.div>
       <motion.div 
@@ -176,7 +176,7 @@ const SkincareApproachSection: React.FC<SkincareApproachSectionProps> = ({ fadeI
       className={styles.skincareContent}
     >
       <p>
-        At Pure Glow, we recognize the uniqueness of every individual's skin. Our approach to skincare is built on these fundamental principles:
+        At Pure Glow, we recognize the uniqueness of every individual&apos;s skin. Our approach to skincare is built on these fundamental principles:
       </p>
       <ul className={styles.approachList}>
         {skincareApproach.map((approach, index) => (
@@ -193,7 +193,7 @@ const SkincareApproachSection: React.FC<SkincareApproachSectionProps> = ({ fadeI
         ))}
       </ul>
       <p>
-        From addressing dryness and aging concerns to catering to sensitive skin, our diverse product range is meticulously crafted to tackle various skin types and issues. We're dedicated to helping you achieve your skin's full potential, naturally and effectively.
+        From addressing dryness and aging concerns to catering to sensitive skin, our diverse product range is meticulously crafted to tackle various skin types and issues. We&apos;re dedicated to helping you achieve your skin&apos;s full potential, naturally and effectively.
       </p>
     </motion.div>
   </section>
