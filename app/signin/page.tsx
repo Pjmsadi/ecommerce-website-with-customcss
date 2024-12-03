@@ -69,7 +69,7 @@ export default function SignInPage() {
         </div>
 
         <div className={styles.signup}>
-          Don't have an account? <Link href="/signup">Sign up</Link>
+          Don&apos;t have an account? <Link href="/signup">Sign up</Link>
         </div>
       </motion.div>
     </div>

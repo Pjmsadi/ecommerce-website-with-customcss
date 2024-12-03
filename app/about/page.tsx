@@ -3,7 +3,6 @@
 import Image from 'next/image'
 import { motion, Variants } from 'framer-motion'
 import styles from './about.module.css'
-import Footer from '@/component/footer'
 
 interface Value {
   icon: string;
@@ -42,8 +41,8 @@ export default function AboutPage() {
 
   const skincareApproach: string[] = [
     "Personalization: We craft bespoke skincare rituals that celebrate and enhance your skin&apos;s unique beauty.",
-    "Natural Ingredients: We thoughtfully select pristine botanicals and pure extracts to awaken your skin's natural radiance.",
-    "Innovative Formulations: We artfully blend groundbreaking science with nature's most precious gifts to create transformative skincare.",
+    "Natural Ingredients: We thoughtfully select pristine botanicals and pure extracts to awaken your skin&apos;s natural radiance.",
+    "Innovative Formulations: We artfully blend groundbreaking science with nature&apos;s most precious gifts to create transformative skincare.",
     "Gentle Effectiveness: We believe in the power of gentle care - our formulas nurture your skin while delivering remarkable, enduring results.",
     "Holistic Wellness: We take an integrative approach to skin health, supporting your natural beauty from within and without."
   ]
