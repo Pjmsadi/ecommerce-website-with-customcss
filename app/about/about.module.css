@@ -1,0 +1,265 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 6rem 2rem;
+    background-color: #f8fafc;
+  }
+  
+  .hero {
+    position: relative;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(135deg, rgba(13, 148, 136, 0.9), rgba(15, 118, 110, 0.9));
+    border-radius: 30px;
+    overflow: hidden;
+    margin-bottom: 6rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  }
+  
+  .heroContent {
+    position: relative;
+    z-index: 2;
+    color: white;
+    animation: fadeIn 1s ease-out;
+  }
+  
+  .heroTitle {
+    font-size: 4.5rem;
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    letter-spacing: -1px;
+  }
+  
+  .heroSubtitle {
+    font-size: 1.5rem;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.8;
+    opacity: 0.9;
+  }
+  
+  .mission {
+    text-align: center;
+    margin-bottom: 6rem;
+    padding: 5rem;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+  }
+  
+  .sectionTitle {
+    font-size: 3.2rem;
+    color: #1e293b;
+    margin-bottom: 3rem;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .sectionTitle::after {
+    content: '';
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 4px;
+    background-color: #0d9488;
+    border-radius: 2px;
+  }
+  
+  .missionText {
+    font-size: 1.4rem;
+    color: #64748b;
+    max-width: 900px;
+    margin: 0 auto;
+    line-height: 2;
+  }
+  
+  .values {
+    margin-bottom: 7rem;
+  }
+  
+  .valueGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3.5rem;
+    margin-top: 4rem;
+  }
+  
+  .valueCard {
+    background: #ffffff;
+    padding: 3.5rem 2.5rem;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    transition: all 0.4s ease;
+  }
+  
+  .valueCard:hover {
+    transform: translateY(-12px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  }
+  
+  .valueIcon {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    color: #0d9488;
+  }
+  
+  .valueTitle {
+    font-size: 2rem;
+    color: #1e293b;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+  }
+  
+  .valueDescription {
+    color: #64748b;
+    line-height: 1.8;
+    font-size: 1.2rem;
+  }
+  
+  .team {
+    margin-bottom: 7rem;
+    background-color: white;
+    padding: 5rem;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+  }
+  
+  .teamGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 4rem;
+    margin-top: 4rem;
+  }
+  
+  .teamCard {
+    background: #ffffff;
+    padding: 3rem;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    transition: all 0.4s ease;
+  }
+  
+  .teamCard:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  }
+  
+  .teamImageWrapper {
+    width: 240px;
+    height: 240px;
+    margin: 0 auto 2.5rem;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .teamImage {
+    object-fit: cover;
+    transition: transform 0.4s ease;
+  }
+  
+  .teamCard:hover .teamImage {
+    transform: scale(1.1);
+  }
+  
+  .teamCard h3 {
+    font-size: 2rem;
+    color: #1e293b;
+    margin-bottom: 1rem;
+    font-weight: 600;
+  }
+  
+  .teamCard h4 {
+    color: #0d9488;
+    margin-bottom: 1.8rem;
+    font-size: 1.3rem;
+    font-weight: 500;
+  }
+  
+  .teamCard p {
+    color: #64748b;
+    line-height: 1.8;
+    font-size: 1.2rem;
+  }
+  
+  .certifications {
+    margin-bottom: 7rem;
+  }
+  
+  .certificationGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3.5rem;
+    margin-top: 4rem;
+  }
+  
+  .certificationItem {
+    text-align: center;
+    background-color: white;
+    padding: 2.5rem;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+    transition: all 0.4s ease;
+  }
+  
+  .certificationItem:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  }
+  
+  .certificationItem img {
+    margin-bottom: 2rem;
+    transition: transform 0.4s ease;
+    max-width: 120px;
+    height: auto;
+  }
+  
+  .certificationItem:hover img {
+    transform: scale(1.15);
+  }
+  
+  .certificationItem p {
+    color: #64748b;
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+  
+  @media (max-width: 768px) {
+    .heroTitle {
+      font-size: 3.5rem;
+    }
+    
+    .valueGrid {
+      grid-template-columns: 1fr;
+    }
+    
+    .certificationGrid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .container {
+      padding: 4rem 2rem;
+    }
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(40px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
